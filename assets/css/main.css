@@ -1627,7 +1627,7 @@ section,
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: var(--contrast-color);
+  color: #f9f906; /* Bright red color for portfolio item titles */
   font-weight: 700;
   margin-bottom: 15px;
 }
