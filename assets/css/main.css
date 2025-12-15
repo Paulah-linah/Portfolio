@@ -1632,7 +1632,7 @@ section,
   margin-bottom: 15px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info .portfolio-links {
+.portfolio .portfolio-wrap .portfolio-info .portfolio-links 
   display: flex;
   gap: 12px;
 }
