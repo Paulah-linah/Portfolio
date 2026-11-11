@@ -1,17 +1,12 @@
 {
-  "name": "Pauline Nafuna Portfolio",
-  "short_name": "Nafuna's Portfolio",
-  "description": "Portfolio of Pauline Nafuna",
+  "name": "Pauline Nafuna — Portfolio",
+  "short_name": "Pauline Nafuna",
+  "description": "Portfolio of Pauline Nafuna, software engineer in Nairobi, Kenya.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#0f172a",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
   "icons": [
-    {
-      "src": "assets/icons/portfolio-icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
+    { "src": "assets/icons/portfolio-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ]
 }
