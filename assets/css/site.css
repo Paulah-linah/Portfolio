@@ -171,10 +171,17 @@ button, input, textarea { font: inherit; color: inherit; }
   .hero-photo { justify-self: center; max-width: 360px; }
   .hero-badge.b1 { left: -12px; } .hero-badge.b2 { right: -12px; }
 }
-@media (max-width: 480px) {
-  .hero-badge { padding: 10px 12px; font-size: .8rem; }
+/* Phones: the badges would cover the face, so they sit in a row under the photo instead. */
+@media (max-width: 600px) {
+  .hero-photo { display: flex; flex-wrap: wrap; gap: 10px; }
+  .hero-photo .frame { flex: 0 0 100%; }
+  .hero-badge, .hero-badge.b1, .hero-badge.b2 { position: static; flex: 1 1 0; min-width: 0; padding: 10px 12px; font-size: .8rem; box-shadow: var(--shadow-sm); }
   .hero-badge .ico { width: 32px; height: 32px; }
-  .hero-badge.b1 { left: 10px; bottom: 24px; } .hero-badge.b2 { right: 10px; top: 20px; }
+  .hero-badge strong { white-space: nowrap; }
+}
+@media (max-width: 430px) {
+  .hero-badge .ico { display: none; }
+  .hero-badge { justify-content: center; text-align: center; }
 }
 
 /* ---------- About ---------- */
